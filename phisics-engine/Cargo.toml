@@ -4,4 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-macroquad = "0.4.16"
+glfw = "0.43"
+gl = "0.14"
+nalgebra-glm = "0.14"
+# Optional: shaderc = "0.7"  # use if you want runtime shader compilation

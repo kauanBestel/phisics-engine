@@ -1,0 +1,9 @@
+# Artefatos de build do Rust/Cargo
+/target
+**/target/
+
+# Backups do rustfmt
+**/*.rs.bk
+
+# Arquivos de debug do MSVC
+*.pdb
