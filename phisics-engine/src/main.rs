@@ -31,16 +31,15 @@ fn main() {
         for (_, event) in glfw::flush_messages(&events) {
             if let glfw::WindowEvent::Key(
                 glfw::Key::Escape, _, glfw::Action::Press, _
-            ) = event {
-                window.set_should_close(true);
-            }
+                ) = event {
+                    window.set_should_close(true);
+                }
 
             if let glfw::WindowEvent::FramebufferSize(w, h) = event {
                 unsafe { gl::Viewport(0, 0, w, h); }
-            }
-
+                }
         }
-
+        
         unsafe {
             gl::Clear(gl::COLOR_BUFFER_BIT);
         }
