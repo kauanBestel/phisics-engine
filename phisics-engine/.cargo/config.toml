@@ -1,0 +1,5 @@
+# This only works in my machine, delete this folder if you want to clone this repository for some reason
+[env]
+CMAKE_GENERATOR = "Visual Studio 18 2026"
+CMAKE_GENERATOR_INSTANCE = 'C:\Program Files\Microsoft Visual Studio\18\Professional'
+
